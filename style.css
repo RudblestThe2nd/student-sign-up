@@ -1,0 +1,38 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(26, 26, 34);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.form-container {
+    border: 0px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    color: rgb(151, 124, 4); 
+         
+}
+label{
+    color: rgb(112, 112, 255);
+}
+input[type="text"],
+input[type="date"],
+input[type="color"],
+input[type="number"],
+select {
+    background-color: rgb(127, 127, 248);;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+button{
+    color: rgb(112, 112, 255);
+}
